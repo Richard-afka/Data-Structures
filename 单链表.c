@@ -224,14 +224,12 @@ int main() {
     // 表长
     printf("当前链表长度: %d\n\n", length(L));
 
-    // 测试尾插法
-    printf("=== 测试尾插法 ===\n");
+    // 尾插法
     printf("请输入数字创建链表L1（以-1结束）: ");
     list_tailInsert(L1);
     printlist(L1);
 
-    // 测试头插法
-    printf("=== 测试头插法 ===\n");
+    // 头插法
     printf("请输入数字创建链表L2（以-1结束）: ");
     list_headInsert(L2);
     printlist(L2);
